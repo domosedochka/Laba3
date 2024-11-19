@@ -32,6 +32,31 @@
   <img src="https://github.com/domosedochka/Laba3/blob/main/Screenshot_2024-11-20-01-08-10-949_com.example.laba3ex1.jpg" width="200" />
 </div>
 
+## Задание 2
+* MainActivity: 
+    На этом экране находятся кнопки "Показать", "Добавить", "Обновить".
+<div align="left">
+  <img src="https://github.com/domosedochka/Laba3/blob/main/Screenshot_2024-11-20-02-03-25-314_com.example.laba3ex2.jpg" width="200" />
+</div>
+
+* Кнопка 1 («Показать»):
+Запускает второе действие (ShowActivity), которое отображает все записи из таблицы «Classmate2» в виде списка, включая ФИО и время добавления каждой записи. По заданию Фамилия, Имя, Отчество должны находиться в разных полях.
+<div align="left">
+  <img src="https://github.com/domosedochka/Laba3/blob/main/Screenshot_2024-11-20-02-03-31-629_com.example.laba3ex2.jpg" width="200" />
+</div>
+
+* Кнопка 2 («Добавить»):
+  Добавляет новую запись в таблицу «Classmate2».
+<div align="left">
+  <img src="https://github.com/domosedochka/Laba3/blob/main/Screenshot_2024-11-20-02-03-38-364_com.example.laba3ex2.jpg" width="200" />
+</div>
+
+* Кнопка 3 («Обновить»): изменяет ФИО в последней добавленной записи на «Иванов Иван Иванович». Пользователь получает уведомление об успешном или неудачном обновлении.
+Все три кнопки взаимодействуют с классом DatabaseHelper для выполнения операций с базой данных.
+<div align="left">
+  <img src="https://github.com/domosedochka/Laba3/blob/main/Screenshot_2024-11-20-02-03-43-914_com.example.laba3ex2.jpg" width="200" />
+</div>
+
 # Как запустить
 1. Загрузка или клонирование репозитория:
 * Скачайте файлы проекта (ZIP-архив) и разархивируйте их в удобную папку или клонируйте репозиторий с помощью команды git clone [URL репозитория].
